@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mycircuit | Get a Quote</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./../css/style.css">
+
+    <script src="https://kit.fontawesome.com/f23f7b2458.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid text-right">
+        <div class="row p-1">
+            <div class="col-12">
+                <i class="fas fa-envelope"></i> info@mycircuit.com.au | &nbsp;
+                <i class="fas fa-phone-volume"></i> +61 424 929 574
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Header -->
+    <header>
+        <!-- Navigation -->
+        <div id="navhead" class="pl-2">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="container-fluid">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="./../images/logo.webp" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="aboutus.html" class="nav-link">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="services.html" class="nav-link">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="quote.html" class="nav-link">Get a Quote</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contactus.html" class="nav-link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div style="background-image: url('./../images/banner.webp')" class="showcase-image img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mt-2">
+                        <h3 class="mt-2 mb-3">Get a Quote</h3 class="mb-3">
+                        <p>
+                            <span class="text-danger font-weight-bold">*</span> Indicates required field
+                        </p>
+
+                        <h4>Personal Details</h4>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row mb-3">
+                                    <div class="col-sm-3 offset-sm-1">
+                                        <label for="enterName" class="col-form-label">Name <span
+                                                class="text-danger font-weight-bold">*</span></label>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control rounded-0" id="enterName"
+                                            placeholder="Enter Name">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3 offset-sm-1">
+                                        <label for="enterEmail" class="col-form-label">Email <span
+                                                class="text-danger font-weight-bold">*</span></label>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control rounded-0" id="enterEmail"
+                                            placeholder="Enter Email">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3 offset-sm-1">
+                                        <label for="enterPhone" class="col-form-label">Phone</label>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control rounded-0" id="enterPhone"
+                                            placeholder="Enter Phone Number">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <hr>
+                        <h4>Board descriptions</h4>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row mb-3">
+                                    <div class="col-sm-3 offset-sm-1">
+                                        <label for="enterQty" class="col-form-label">Required Quantity <span
+                                                class="text-danger font-weight-bold">*</span></label>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control rounded-0" id="enterQty"
+                                            placeholder="Enter Required Quantity">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3 offset-sm-1">
+                                        <label for="enterSMT" class="col-form-label">Number of SMT components <span
+                                                class="text-danger font-weight-bold">*</span></label>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control rounded-0" id="enterSMT"
+                                            placeholder="Enter Number of SMT components">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3 offset-sm-1">
+                                        <label for="enterHole" class="col-form-label">Number of through-hole components
+                                            <span class="text-danger font-weight-bold">*</span></label>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control rounded-0" id="enterHole"
+                                            placeholder="Enter Number of through-hole components">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3 offset-sm-1">
+                                        <label for="enterConnectors" class="col-form-label">Number of connectors
+                                            <span class="text-danger font-weight-bold">*</span></label>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control rounded-0" id="enterConnectors"
+                                            placeholder="Enter Number of connectors">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-sm-3 offset-sm-1">
+                                        <label for="enterAssembly" class="col-form-label">Lead free assembly?
+                                            <span class="text-danger font-weight-bold">*</span></label>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <select class="custom-select rounded-0">
+                                            <option selected>Please select</option>
+                                            <option value="1">Leaded</option>
+                                            <option value="2">Lead-free</option>
+                                            <option value="3">Not sure</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3 offset-sm-1">
+                                        <label for="enterPCB" class="col-form-label">Do you want us to purchase the
+                                            PCB's and parts?
+                                            <span class="text-danger font-weight-bold">*</span></label>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <select class="custom-select rounded-0">
+                                            <option selected>Please select</option>
+                                            <option value="1">Yes</option>
+                                            <option value="2">No</option>
+                                            <option value="3">Not sure</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3 offset-sm-1">
+                                        <label for="enterIPC" class="col-form-label">IPC Workmanship standard
+                                            <span class="text-danger font-weight-bold">*</span></label>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <select class="custom-select rounded-0">
+                                            <option selected>Please select</option>
+                                            <option value="1">IPC Class 2</option>
+                                            <option value="2">IPC Class 3</option>
+                                            <option value="3">Not sure</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3 offset-sm-1">
+                                        <label for="enterBOM" class="col-form-label">Do you want to send us your project
+                                            BOM or Gerber files?
+                                            <span class="text-danger font-weight-bold">*</span></label>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <select class="custom-select rounded-0">
+                                            <option selected>Please select</option>
+                                            <option value="1">Yes</option>
+                                            <option value="2">No</option>
+                                            <option value="3">Not sure</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3 offset-sm-1">
+                                        <label for="enterSign" class="col-form-label">Do you require an NDA
+                                            (Non-Disclosure Agreement) to be signed?</label>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <select class="custom-select rounded-0">
+                                            <option selected>Please select</option>
+                                            <option value="1">Yes</option>
+                                            <option value="2">No</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-5 offset-sm-4">
+                                        <button class="btn btn-primary rounded-0 w-100" type="submit">Send</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row sub-footer">
+                <!-- Quote -->
+
+                <div class="col-12 col-md-6 text-center quote p-2">
+                    <h5 class="text-white">PCB Assembly Get a Quote!!!</h5>
+                    <a href="quote.html" class="btn btn-default mt-2 rounded-0">Enquire Now</a>
+                </div>
+
+
+                <!-- Follow Us -->
+                <div class="col-12 col-md-6 text-center">
+                    <h5>Stay connected</h5>
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="row main-footer text-center pt-3 pb-1">
+                <div class="col-12">
+                    <h6>All Rights Reserved, &copy;Copyright @2020, <span class="">My
+                            Circuit</span></h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
